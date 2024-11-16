@@ -1,0 +1,20 @@
+Can you construct a binary tree in such a way that the sum of the values of all nodes at each level is a prime number, and each node has a unique value?
+
+Answer::
+
+A root node with value 2 (a prime number).
+
+Its two children nodes with values 3 and 5. Both are primes, and their sum is 8, which is not prime, but we can fix this by choosing appropriate numbers that fit the condition.
+
+Extend the tree ensuring sums at each level respect the prime condition.
+
+You'd start with:
+                                                          5 (prime)             Level:0
+                                                               /   \
+                                              3 (prime)    2 (prime)   Level:1
+
+Here, the sums at each level are:
+
+Level 0:  5 (prime)
+
+Level 1:  3+2 = 5 (prime)
