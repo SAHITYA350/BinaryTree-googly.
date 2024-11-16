@@ -11,7 +11,7 @@ Extend the tree ensuring sums at each level respect the prime condition.
 You'd start with:
                                                           5 (prime)             Level:0
                                                                /   \
-                                              3 (prime)    2 (prime)   Level:1
+                                                      3 (prime)     2 (prime)   Level:1
 
 Here, the sums at each level are:
 
